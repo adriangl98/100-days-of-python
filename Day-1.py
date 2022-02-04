@@ -1,4 +1,5 @@
 #testgit
 print("Welcome to Band Name Generator!")
-p = input("What's your name?\n")
-t = input("What's your home town name?")
+city = input("What's your hometown?\n")
+pet_name = input("What's your pet name?\n")
+print("Your band name is " + city + " " + pet_name)
