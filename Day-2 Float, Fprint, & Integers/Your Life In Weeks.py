@@ -1,4 +1,6 @@
-age = int(input("What is your age? "))
+age_string = input("What is your age? ")
+
+age = int(age_string)
 
 age_remain = 90 - age
 
